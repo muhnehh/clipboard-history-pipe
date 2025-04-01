@@ -1,0 +1,26 @@
+{
+  "name": "my-clipboard-history",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "publish": "bunx --bun @screenpipe/dev@latest pipe publish --name clipboard-history-pipe"
+  },
+  "dependencies": {
+    "next": "^15.1.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/prop-types": "^15.7.14",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "typescript": "^5"
+  }
+}
